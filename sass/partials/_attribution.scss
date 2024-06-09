@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 8px;
+    text-align: center;
+}
+
+.attribution a {
+    color: black;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+    height: 100vh;
+}
+
+.background {
+    background-image: url(../../images/background-pattern-mobile.svg);
+    width: 100vw;
+    height: 45vh;
+}
