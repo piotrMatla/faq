@@ -1,0 +1,91 @@
+@media only screen and (min-width: 375px) {
+  .faq {
+    height: 75%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .faq {
+    width: 55%;
+    height: 70%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .faq {
+    width: 45%;
+    height: 75%;
+  }
+
+  .question-paragraph {
+    font-size: 20px;
+  }
+
+  .fa-circle-minus {
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .fa-circle-plus {
+    font-size: 30px;
+    transition: .1s linear;
+    cursor: pointer;
+  }
+
+  .fa-circle-plus:hover {
+    color: hsl(293, 16%, 32%);
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .faq {
+    height: 70%;
+  }
+
+  .question-paragraph {
+    font-size: 25px;
+  }
+
+  .answer {
+    font-size: 15px;
+  }
+
+  .fa-circle-minus {
+    font-size: 35px;
+  }
+
+  .fa-circle-plus {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  // .faq {
+  //   height: 70%;
+  // }
+
+  .faq-title {
+    padding: 70px 50px;
+    font-size: 80px;
+  }
+
+  .fa-star {
+    font-size: 80px;
+  }
+
+  .question-paragraph {
+    font-size: 45px;
+  }
+
+  .answer {
+    font-size: 30px;
+  }
+
+  .fa-circle-minus {
+    font-size: 70px;
+  }
+
+  .fa-circle-plus {
+    font-size: 70px;
+  }
+}
