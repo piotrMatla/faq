@@ -23,7 +23,9 @@ body {
 }
 
 .background {
-    background-image: url(../../images/background-pattern-desktop_new.svg);
+    background-image: url(../../images/test.png);
+    background-repeat: no-repeat;
+    background-size: 100vh;
     width: 100vw;
     height: 45vh;
 }

@@ -2,6 +2,12 @@
   .faq {
     height: 75%;
   }
+.question-paragraph {
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+}
 }
 
 @media only screen and (min-width: 768px) {
@@ -9,6 +15,9 @@
     width: 55%;
     height: 70%;
   }
+.background {
+  background-size: 100vw;
+}
 }
 
 @media only screen and (min-width: 1024px) {
