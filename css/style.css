@@ -23,7 +23,7 @@ body {
 }
 
 .background {
-  background-image: url(../../images/background-pattern-mobile.svg);
+  background-image: url(../../images/background-pattern-desktop_new.svg);
   width: 100vw;
   height: 45vh;
 }
